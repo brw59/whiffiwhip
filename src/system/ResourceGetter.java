@@ -73,7 +73,6 @@ public class ResourceGetter
     */
    public static String getResource(String pName)
    {
-       
       return getResource(ResourceGetter.class, pName);
    }
 
